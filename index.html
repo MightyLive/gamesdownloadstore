@@ -3,159 +3,58 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mighty Games</title>
-
-<style>
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial;
-}
-
-body{
-background:#0f172a;
-color:white;
-}
-
-header{
-background:#111827;
-padding:20px;
-display:flex;
-justify-content:space-between;
-align-items:center;
-}
-
-.logo{
-font-size:30px;
-font-weight:bold;
-color:#00ff88;
-}
-
-nav a{
-color:white;
-text-decoration:none;
-margin-left:20px;
-}
-
-.hero{
-padding:80px;
-text-align:center;
-}
-
-.hero h1{
-font-size:50px;
-margin-bottom:20px;
-}
-
-.hero p{
-font-size:20px;
-color:#ccc;
-margin-bottom:30px;
-}
-
-button{
-padding:15px 40px;
-background:#00ff88;
-border:none;
-border-radius:8px;
-font-size:18px;
-cursor:pointer;
-}
-
-.games{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:20px;
-padding:40px;
-}
-
-.card{
-background:#1e293b;
-border-radius:10px;
-overflow:hidden;
-}
-
-.card img{
-width:100%;
-height:200px;
-object-fit:cover;
-}
-
-.card h2{
-padding:15px;
-}
-
-.card a{
-display:block;
-background:#00ff88;
-text-align:center;
-padding:15px;
-text-decoration:none;
-color:black;
-font-weight:bold;
-}
-</style>
-
+<title>Game Download Store</title>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header>
-<div class="logo">Mighty Games</div>
+<h1>🎮 Game Download Store</h1>
 
 <nav>
 <a href="#">Home</a>
-<a href="#">PC Games</a>
 <a href="#">Android</a>
+<a href="#">PC</a>
 <a href="#">iPhone</a>
+<a href="#">Latest</a>
+<a href="#">Login</a>
 </nav>
+
+<input type="text" placeholder="Search Games...">
 
 </header>
 
 <section class="hero">
-
-<h1>Download Games</h1>
-
-<p>Find PC, Android & iPhone Games</p>
-
+<h2>Download Android, PC & iPhone Games</h2>
+<p>Fast • Safe • Easy</p>
 <button>Explore Games</button>
-
 </section>
 
 <section class="games">
 
 <div class="card">
-
-<img src="https://picsum.photos/400/250">
-
-<h2>Sample Game</h2>
-
-<a href="#">Official Download</a>
-
+<h3>Android Games</h3>
+<p>Latest Android Games</p>
 </div>
 
 <div class="card">
-
-<img src="https://picsum.photos/401/250">
-
-<h2>Sample Game 2</h2>
-
-<a href="#">Official Download</a>
-
+<h3>PC Games</h3>
+<p>Latest PC Games</p>
 </div>
 
 <div class="card">
-
-<img src="https://picsum.photos/402/250">
-
-<h2>Sample Game 3</h2>
-
-<a href="#">Official Download</a>
-
+<h3>iPhone Games</h3>
+<p>Latest iPhone Games</p>
 </div>
 
 </section>
 
+<footer>
+<p>© 2026 Game Download Store</p>
+</footer>
+
+<script src="script.js"></script>
+
 </body>
-</html>
+  </html>
