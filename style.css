@@ -90,3 +90,20 @@ footer{
 .card button:hover{
   background:#00994d;
   }
+<header class="header">
+    <div class="logo">
+        🎮 Game Download Store
+    </div>
+
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="android.html">Android</a>
+        <a href="pc.html">PC</a>
+        <a href="iphone.html">iPhone</a>
+        <a href="login.html">Login</a>
+    </nav>
+
+    <div class="search-box">
+        <input type="text" placeholder="Search Games...">
+    </div>
+</header>
